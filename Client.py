@@ -1001,7 +1001,7 @@ class Client():
 							self.current_map = 'geffen'
 						else:
 							print 'UNKNOWN MAP! PROBABLY a prison!'
-							print 'God help us all! Hope Vadim is near the computer.'
+							print 'Hope Vadim is near the computer.'
 							self.tasks = [halt]
 							for i in range(100):
 								beep(1000,300)
